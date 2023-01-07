@@ -1,0 +1,35 @@
+Software Engineer Jun. 2021 - Nov. 2022
+◦A/B Experiment Platform: Develop and maintain the feature flag module of the platform. Feature flag is a
+software development technique that turns certain functionality on and off during runtime, without deploying new
+code. 
+Feature flag provides many powerful functions like canary releases, version control, whitelist, rollback,
+scheduled release, workflow.
+
+Developed many core functions of featureflag module like version control, whitelist, scheduled release. Feature flag is a software development technique that turns certain functionality on and off during runtime, without deploying new code. 
+
+◦Tab Service: Tab Service is the core of A/B experiment platform.It divides the traﬀic completely at random.
+Significantly improved the performance and reliability of the tab service through many optimizations, such as
+multi-level caching, batch report event, code optimization.
+
+• The 28th Research Institute of China Electronics Technology Group Corporation Nanjing, China
+Software Engineer Jul. 2019 - May. 2021
+◦Database Middleware: The Database Middleware encapsulates different database interfaces, like Mysql,Oracle,
+and then provides the same set of interfaces for upper-layer applications. So the application can use same code to
+visit different databases. The middleware adopts C/S architecture, client part is provided to the upper-layer
+application to communicate with server part, server part adopts the reactor pattern, which supports a large
+number of concurrent requests. At the same time,server has a database connection pool based on the LRU
+algorithm, which reduces the overhead of frequent creation and destruction of database connections
+◦Database Synchronization: The Database Synchronization is used to sync different databases, like
+Mysql,Oracle.It solves many problems,like loop synchronization, ring synchronization, data consistency. It realizes
+reliable transmission and congestion control based on a custom communication protocol and supports parallel
+synchronization with multiple nodes.
+• Baidu Shanghai, China
+Software Engineer Jul. 2018 - Jul. 2019
+◦Order Monitor: In payment system,an order will go through many steps to finish,and an order may stuck in any
+step for some reason. At first,one script monitor one situation,so there are hundreds of scripts,which is hard to
+maintain. All scripts merge to the order monitor tool which has three parts, data acquisition, analysis, and alarm
+send.
+◦Order Maintenance Tool: Order Maintenance Tool provides a overview of all the orders based on flask.The tool
+adopts B/S architecture, you can fix an abnormal order on the web page quickly.
+Programming Skills
+• Languages: C++, Go, Python Technologies: Linux Server, Multithread, Socket, Event-driven
